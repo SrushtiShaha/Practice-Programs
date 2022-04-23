@@ -5,7 +5,7 @@ int main()
 {
         int i = 0,j = 0, N = 0;
         
-        printf("\t Enter Any Size To Print Pattern Of Forkinfosystem -> ");
+        printf("\t Enter Any Odd Size To Print Pattern Of Forkinfosystem -> ");
         scanf("%d",&N);
         
         printf("\n \t Pattern Is -> ");
