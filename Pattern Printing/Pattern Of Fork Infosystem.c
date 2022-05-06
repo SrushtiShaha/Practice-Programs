@@ -5,12 +5,21 @@ int main()
 {
         int i = 0,j = 0, N = 0;
         
+        Up:
+        
         printf("\t Enter Any Odd Size To Print Pattern Of Forkinfosystem -> ");
         scanf("%d",&N);
         
-        printf("\n \t Pattern Is -> ");
+        if( N % 2 == 0 )
+        {
+              printf(" \n \t Please Enter Any Odd Size. \n");
+              printf("\n \t ---------------------------------------- \n\n");
+              goto Up;
+        }
         
-        printf("\n \t====================================================\n\n");
+        printf("\n \t Pattern Is -> \n");
+        
+        printf("\n \t===========================================================\n\n");
         
         for( i = 1; i <= N; i++) //F
         {
@@ -275,6 +284,12 @@ int main()
               
               printf(" \n ");
         }
+        
+        printf("\n \t =========================================================");
+        
+        printf("\n\n \t Thanks!!! \n");
+        
+        printf("\n \t Process Finished. ");
         
         getch();
         return 0;     
